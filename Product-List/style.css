@@ -1,27 +1,29 @@
-body{
+body {
     font-family: sans-serif;
-}
-.containeer{
     margin: 1rem;
+}
+.containeer {
     width: 100%;
 }
-ol{
-    background-color: lightcoral;
-    padding: 50px;
+ol {
+    background-color: #ed9eae;
+    padding: 30px;
 }
 
-li{
-    background-color: red;
-    border: 5px solid lightcoral;
-    
+li {
+    background-color: #c66376;
+    border: 5px solid #ed9eae;
+    list-style: none;
+    counter-increment: count-me;
 }
 
-#product{
+#product {
     color: white;
-    background-color: darkred;
+    background-color: #9e354a;
     width: 200px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
