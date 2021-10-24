@@ -1,29 +1,41 @@
-body {
+body{
     font-family: sans-serif;
     margin: 1rem;
 }
-.containeer {
-    width: 100%;
-}
-ol {
-    background-color: #ed9eae;
-    padding: 30px;
-}
 
-li {
-    background-color: #c66376;
-    border: 5px solid #ed9eae;
+ol{
     list-style: none;
-    counter-increment: count-me;
+    counter-reset: my-counter;
+    background-color: #ed9eae;
+    padding: 20px;
 }
 
-#product {
-    color: white;
+ol li{
+    counter-increment: my-counter;
+}
+
+ol li::before{
+    content: counter(my-counter) ". ";
+    padding-left: 5px;
+}
+
+li{
+    background-color: #c66376;
+    margin: 15px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+ol li::before{
+    background-color: #c66376;
+}
+
+span{
     background-color: #9e354a;
-    width: 200px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.containeer{
+    width: 700px;
 }
