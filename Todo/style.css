@@ -18,7 +18,7 @@ ul{
 
 li{
     list-style-image: url(./Image/unchecked_16.png);
-    background-color: #a5ccda;
+    background-color: #add8e6;
     list-style-position: inside;
     font-size: 20px;
     padding: 0.5em 0.5em 0.5em 2em;
@@ -34,4 +34,8 @@ span::after{
     content: "×";
     color: darkred;
     padding-left: 20px;
+}
+
+#darkblue{
+    background-color:#a5ccda;
 }

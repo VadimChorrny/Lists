@@ -7,7 +7,7 @@ ol{
     list-style: none;
     counter-reset: my-counter;
     background-color: #ed9eae;
-    padding: 20px;
+    padding: 30px;
 }
 
 ol li{
@@ -24,6 +24,7 @@ li{
     margin: 15px;
     color: #fff;
     padding-left: 10px;
+    padding: 5px;
 }
 
 ol li::before{
@@ -32,8 +33,7 @@ ol li::before{
 
 span{
     background-color: #9e354a;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 5px;
 }
 
 .containeer{
