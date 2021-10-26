@@ -28,12 +28,14 @@ li{
     list-style-image: url(./Image/checked_16.png);
     background-color: #e2e2e2;
     list-style-position: inside;
+    text-decoration: line-through;
 }
 
 span::after{
     content: "×";
     color: darkred;
     padding-left: 20px;
+    text-decoration: none;
 }
 
 #darkblue{

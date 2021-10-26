@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    margin: 1rem;
+}
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.first-containeer{
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#one-number::before{
+    content: "1. ";
+}
+#two-number::before{
+    content: "2. ";
+}
+#middleware{
+    margin-left: 20px;
+}
+#middleware span{
+    color: #2471A3;
+}
+
+dd{
+    color: gray;
+    margin-left: 25px;
+}
+
+.second-containeer{
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
